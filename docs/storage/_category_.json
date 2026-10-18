@@ -1,0 +1,9 @@
+{
+  "label": "儲存設備（NAS / SAN）",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "NAS、SAN、磁帶等儲存設備的安裝紀錄。",
+    "slug": "/category/storage"
+  }
+}

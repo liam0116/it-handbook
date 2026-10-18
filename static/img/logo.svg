@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="IT 知識庫">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1e3a"/>
+      <stop offset="1" stop-color="#132f5c"/>
+    </linearGradient>
+    <linearGradient id="unit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1c3f73"/>
+      <stop offset="1" stop-color="#25528f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="13.25" fill="none" stroke="#22d3ee" stroke-opacity=".35" stroke-width="1.5"/>
+  <g>
+    <rect x="13" y="14" width="38" height="10" rx="2.5" fill="url(#unit)" stroke="#38bdf8" stroke-opacity=".6"/>
+    <rect x="13" y="27" width="38" height="10" rx="2.5" fill="url(#unit)" stroke="#38bdf8" stroke-opacity=".6"/>
+    <rect x="13" y="40" width="38" height="10" rx="2.5" fill="url(#unit)" stroke="#38bdf8" stroke-opacity=".6"/>
+    <g fill="#22d3ee">
+      <circle cx="18.5" cy="19" r="1.8"/>
+      <circle cx="18.5" cy="32" r="1.8"/>
+    </g>
+    <circle cx="18.5" cy="45" r="1.8" fill="#34d399"/>
+    <circle cx="23.5" cy="19" r="1.8" fill="#34d399"/>
+    <circle cx="23.5" cy="32" r="1.8" fill="#34d399"/>
+    <circle cx="23.5" cy="45" r="1.8" fill="#22d3ee"/>
+    <g stroke="#7dd3fc" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round">
+      <path d="M31 19h15M31 32h15M31 45h15"/>
+    </g>
+  </g>
+</svg>

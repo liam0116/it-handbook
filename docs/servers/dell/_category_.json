@@ -1,0 +1,9 @@
+{
+  "label": "Dell PowerEdge",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "iDRAC、PERC、Lifecycle Controller。",
+    "slug": "/category/servers-dell"
+  }
+}

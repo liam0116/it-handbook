@@ -1,0 +1,9 @@
+{
+  "label": "Proxmox VE",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "PVE 安裝、NFS、iSCSI、Cluster、HA。筆記有前後關係，請依編號 1 → 2 → 3 依序閱讀。",
+    "slug": "/category/virtualization-proxmox"
+  }
+}

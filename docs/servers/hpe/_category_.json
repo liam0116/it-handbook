@@ -1,0 +1,9 @@
+{
+  "label": "HPE ProLiant",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "iLO、Smart Array / MR 控制器、SPP。",
+    "slug": "/category/servers-hpe"
+  }
+}

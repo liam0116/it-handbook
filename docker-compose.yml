@@ -1,0 +1,23 @@
+services:
+  # 正式版：docker compose up -d --build   → http://localhost:8080
+  docs:
+    build: .
+    image: it-handbook:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  # 編輯模式（存檔即時更新）：docker compose --profile dev up docs-dev   → http://localhost:3000
+  docs-dev:
+    profiles: ["dev"]
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci && npx docusaurus start --host 0.0.0.0 --port 3000 --poll 1000"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/app
+      - node_modules:/app/node_modules
+
+volumes:
+  node_modules:

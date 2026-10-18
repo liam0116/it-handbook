@@ -1,0 +1,9 @@
+{
+  "label": "通用裝機流程",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "不分廠牌都要做的步驟：上架、BMC、RAID、OS、網路、交接。",
+    "slug": "/category/checklists"
+  }
+}

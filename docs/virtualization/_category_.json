@@ -1,0 +1,9 @@
+{
+  "label": "虛擬化平台",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "PVE、VMware ESXi、Hyper-V 的安裝與設定。",
+    "slug": "/category/virtualization"
+  }
+}

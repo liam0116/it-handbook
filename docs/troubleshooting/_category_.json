@@ -1,0 +1,9 @@
+{
+  "label": "問題排除紀錄",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "遇過的錯誤訊息、原因與解法，一則一頁。",
+    "slug": "/category/troubleshooting"
+  }
+}

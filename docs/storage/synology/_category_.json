@@ -1,0 +1,9 @@
+{
+  "label": "Synology",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Synology NAS（DSM）機型紀錄。",
+    "slug": "/category/storage-synology"
+  }
+}

@@ -1,0 +1,18 @@
+# Dependencies / build
+/node_modules
+/build
+.docusaurus
+.cache-loader
+
+# 機密：任何帳密檔都不要進 git
+*帳密*
+*password*
+*.kdbx
+.env*
+/private
+
+.DS_Store
+npm-debug.log*
+
+# 待整理的原始筆記（可能含機密）
+/_inbox

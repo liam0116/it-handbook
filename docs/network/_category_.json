@@ -1,0 +1,9 @@
+{
+  "label": "網路設備",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Switch、Firewall、VLAN、Bonding 設定。",
+    "slug": "/category/network"
+  }
+}

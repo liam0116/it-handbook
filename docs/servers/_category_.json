@@ -1,0 +1,9 @@
+{
+  "label": "伺服器（依廠牌／型號）",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "每台機型一頁：BIOS/BMC、RAID 卡、支援 OS、驅動、踩過的坑。",
+    "slug": "/category/servers"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "使用說明",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "怎麼新增筆記、命名規則、範本。",
+    "slug": "/category/guide"
+  }
+}
