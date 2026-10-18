@@ -8,11 +8,21 @@ tags: [checklist]
 
 不分廠牌，每次裝機照順序走一遍；各機型的細節寫在 [伺服器](/category/servers) 的機型頁。
 
+## 0. 出發前準備
+
+- [ ] 跟客戶確認：機櫃剩餘 U 數與深度、立柱孔型、供電電壓與 PDU 插孔（見 [機櫃、滑軌與電源](../hardware/rack-and-power/index.md)）
+- [ ] 確認網路接法：光纖單模／多模、模組種類、由誰提供模組（見 [光纖、光模組與線材](../network/fiber-transceiver/index.md)）
+- [ ] 確認 IP 規劃：BMC、OS、閘道器、DNS、NTP、VLAN
+- [ ] 工具：螺絲起子、防靜電手環、束帶／魔鬼氈、標籤機或標籤紙、手電筒
+- [ ] 線材與備品：備用光模組、光纖跳線、網路線、C13/C14 電源線、光纖清潔筆
+- [ ] 裝置：筆電與電源、USB 開機碟（OS ISO、驅動）、Console 線（USB 轉 RJ45／DB9）、USB 網卡
+
 ## 1. 到貨與上架
 
 - [ ] 對照訂單：機型、CPU、記憶體、硬碟數量與容量、RAID 卡、網卡、電源數量
 - [ ] 記錄**機器序號 / Service Tag**（寫進裝機紀錄）
 - [ ] 上機櫃：滑軌、理線、雙電源分別接到不同 PDU
+- [ ] 記錄裝在第幾 U；加裝記憶體／硬碟時照 [記憶體插法](../hardware/memory-population/index.md)、[硬碟與背板](../hardware/drives-and-bays/index.md)
 
 ## 2. BMC 管理介面（iDRAC / iLO / IPMI / XCC）
 
@@ -49,6 +59,7 @@ tags: [checklist]
 ## 7. 網路
 
 - [ ] 網卡對應的實體 Port 與 Switch Port 對照
+- [ ] 光纖兩端模組種類一致、Link 燈亮、速度正確
 - [ ] Bonding / Teaming、VLAN
 - [ ] 測試：Ping 閘道、DNS 解析、對外連線
 

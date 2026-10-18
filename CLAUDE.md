@@ -31,7 +31,8 @@ docs/
 ├── virtualization/<平台>/<主題>/   PVE / ESXi / Hyper-V（position 5）
 ├── os/                           作業系統（position 6）
 ├── network/                      網路設備（position 7）
-└── troubleshooting/              問題排除；overview.md 是「問題索引」表（position 8）
+├── troubleshooting/              問題排除；overview.md 是「問題索引」表（position 8）
+└── hardware/                     硬體基礎：不分廠牌的記憶體、硬碟、機櫃電源（position 9）
 ```
 
 - 每篇筆記 = **一個資料夾**，內含 `index.md` 和 `images/`。
@@ -133,6 +134,14 @@ pvesm status
 - 檔名：兩位數編號 + 中文說明，例如 `03-RAID類型.png`。編號依在文章中出現的順序；補充到既有筆記時，從該資料夾現有的最大號往後編，不要撞號。
 - 圖片直接放 `images/`，**不要**再開 `images/待補/` 之類的子資料夾。
 - `alt` 文字要有意義（點擊放大時會顯示成說明）。
+
+### 網路上的圖片
+
+本站是個人學習筆記，使用者同意引用廠商官方文件的圖。找圖時：
+
+- **優先用廠商官方文件**（手冊 PDF、官方說明頁）：PDF 用 pymupdf 依圖號裁切成 PNG（200 dpi）；圖下加 `*圖片來源：[文件名稱](官方連結)，Figure N*`。
+- 其次用 Wikimedia Commons：用 Commons API（`prop=imageinfo&iiprop=extmetadata`）確認授權與作者；圖下加 `*圖片來源：[作者／Wikimedia Commons](檔案頁網址)，授權*`（網址中的括號編碼成 `%28` `%29`）。
+- 每張圖都要用 Read 看過，確認內容符合圖說；含序號、密碼的部分照「遮蔽規則」處理。
 
 ### 待補的圖片
 

@@ -13,6 +13,7 @@ docs/
 ├── storage/<廠牌>/<型號>/
 ├── virtualization/<平台>/<主題>/
 ├── os/  network/  troubleshooting/
+├── hardware/              硬體基礎（不分廠牌：記憶體、硬碟、機櫃電源）
 ```
 
 每篇筆記**一個資料夾**，裡面放 `index.md` 和 `images/`：
@@ -56,6 +57,21 @@ sidebar_label: "2. Debian NFS 儲存"
 :::warning
 不要用 `<img src="..." width="...">`，Docusaurus 不會打包這種寫法的圖片，也不需要再指定寬度。
 :::
+
+### 網路上的圖片
+
+沒有自己拍的照片時，可以用：
+
+- **廠商官方文件的圖**（Dell、HPE、Lenovo 手冊、官方說明頁）：截圖或從 PDF 擷取，圖下寫文件名稱、章節或圖號，附官方連結。
+- **Wikimedia Commons** 上的圖：圖下寫作者、來源連結和授權。
+
+```md
+![Dell R760 記憶體插槽位置](images/04-Dell-R760記憶體插槽位置.png)
+
+*圖片來源：[Dell PowerEdge R760 Installation and Service Manual](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/)，Figure 180*
+```
+
+圖片著作權屬原廠商或原作者。之後有自己拍的照片，可以直接替換。
 
 ### 待補的圖片
 

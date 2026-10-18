@@ -15,6 +15,7 @@ sidebar_label: 首頁
 | 某台機器怎麼裝、裝什麼 OS、要哪些驅動 | [伺服器（依廠牌／型號）](/category/servers) |
 | NAS／SAN 設定（RAID、Hot Spare、Volume） | [儲存設備](/category/storage) |
 | PVE／ESXi／Hyper-V | [虛擬化平台](/category/virtualization) |
+| Slot 是什麼、光纖、記憶體、硬碟、機櫃電源怎麼認、上蓋標籤怎麼看 | [硬體基礎](/category/hardware)、[光纖與光模組](/network/fiber-transceiver) |
 | 每次裝機都要做的步驟 | [通用裝機流程](/checklists/server-deployment) |
 | 某個錯誤訊息怎麼解 | [問題排除紀錄](/category/troubleshooting)，或用右上角搜尋 |
 
@@ -24,6 +25,11 @@ sidebar_label: 首頁
 - [Proxmox VE 安裝（Mac M4 + UTM）](/virtualization/proxmox/pve-install-m4)
 - [PVE + Debian NFS 儲存](/virtualization/proxmox/nfs-storage)
 - [PVE + iSCSI + LVM 儲存](/virtualization/proxmox/iscsi-lvm-storage)
+- [光纖、光模組與線材](/network/fiber-transceiver)
+- [伺服器的 Slot（插槽）](/hardware/server-slots)
+- [伺服器記憶體插法與上蓋標籤](/hardware/memory-population)
+- [硬碟種類與背板](/hardware/drives-and-bays)
+- [機櫃、滑軌與電源線](/hardware/rack-and-power)
 
 ## 新增筆記
 

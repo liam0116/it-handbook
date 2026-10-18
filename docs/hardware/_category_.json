@@ -1,0 +1,9 @@
+{
+  "label": "硬體基礎",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "不分廠牌的硬體辨識與安裝：Slot（插槽）、記憶體插法、硬碟與背板、機櫃滑軌、電源線。",
+    "slug": "/category/hardware"
+  }
+}
