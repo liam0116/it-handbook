@@ -113,7 +113,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `內部文件，請勿外流 · ${new Date().getFullYear()}`,
+        // 內容授權 CC BY-NC-SA 4.0：可分享、需註明出處、禁止商業使用（見 LICENSE）
+        copyright: `© ${new Date().getFullYear()} liam0116 · 內容採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hant" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> 授權：轉載請註明出處，禁止商業使用`,
       },
       mermaid: {
         theme: {light: 'neutral', dark: 'dark'},
