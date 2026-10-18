@@ -113,8 +113,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // 個人學習筆記；引用圖片的著作權屬原權利人
-        copyright: `© ${new Date().getFullYear()} liam0116 · 個人學習筆記 · 引用的廠商文件與圖片，著作權屬原權利人，出處標於各圖下方`,
+        copyright: `© ${new Date().getFullYear()} liam0116 · 個人學習筆記`,
       },
       mermaid: {
         theme: {light: 'neutral', dark: 'dark'},

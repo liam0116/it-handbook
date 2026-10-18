@@ -71,8 +71,6 @@ sidebar_label: "2. Debian NFS 儲存"
 *圖片來源：[Dell PowerEdge R760 Installation and Service Manual](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/)，Figure 180*
 ```
 
-圖片著作權屬原廠商或原作者。之後有自己拍的照片，可以直接替換。
-
 ### 待補的圖片
 
 還沒拍的圖，在該步驟下方放一個「📷 待補截圖」框，寫清楚要拍什麼、存成什麼檔名：
